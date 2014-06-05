@@ -1,0 +1,19 @@
+.idea
+.settings
+.build
+build
+.DS_Store
+node_modules
+/logs
+/cdbs
+locales/npm-debug.log
+npm-debug.log
+coverage
+test/functional/report/*.xml
+test/functional/report/*.png
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
