@@ -14,4 +14,8 @@ module.exports = function(app, passport) {
 		res.send({success: 1},200);
 	});
 
+	app.post('/post_test', function(req, res) {
+		console.log(req.body);
+		res.send(200)
+	})
 };
